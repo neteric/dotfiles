@@ -2,7 +2,7 @@
 
 sudo brew install ctags cmake
 
-if ! ctags --list-languages | grep -qi python; then
+if ! ctags --list-languages | grep -qi [Py]ython; then
     echo "Fail to install ctags!"
     exit 1
 fi
